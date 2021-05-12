@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="7143" started-at="2021-05-12T18:36:09 IST" finished-at="2021-05-12T18:36:16 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="7143" started-at="2021-05-12T18:36:09 IST" finished-at="2021-05-12T18:36:16 IST">
+      <class name="cowin.SlotFinder">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:cowin.SlotFinder@c0edeb]" name="driverSetup" is-config="true" duration-ms="587" started-at="2021-05-12T18:36:09 IST" finished-at="2021-05-12T18:36:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:cowin.SlotFinder@c0edeb]" name="openChromeDriver" duration-ms="5547" started-at="2021-05-12T18:36:10 IST" finished-at="2021-05-12T18:36:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeDriver -->
+        <test-method status="PASS" signature="SearchByPincode()[pri:1, instance:cowin.SlotFinder@c0edeb]" name="SearchByPincode" duration-ms="289" started-at="2021-05-12T18:36:15 IST" finished-at="2021-05-12T18:36:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByPincode -->
+        <test-method status="PASS" signature="slotStatus()[pri:2, instance:cowin.SlotFinder@c0edeb]" name="slotStatus" duration-ms="24" started-at="2021-05-12T18:36:16 IST" finished-at="2021-05-12T18:36:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slotStatus -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:cowin.SlotFinder@c0edeb]" name="closeBrowser" is-config="true" duration-ms="654" started-at="2021-05-12T18:36:16 IST" finished-at="2021-05-12T18:36:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- cowin.SlotFinder -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
